@@ -19,9 +19,7 @@ To get up and running, after cloning the repository:
 
 2. Add the cloned files to the root of a Zend Expressive (or other PHP) project.
 
-3. In `docker/nginx/default.conf` change the default document root setting, `root /PATH/TO/YOUR/DOCUMENT/ROOT;`, to suit your installation. More than likely, there will be a `public/` directory in your source. So change the setting to be `root /var/www/html/public;`.
-
-4. Build the configuration by running: `docker-compose up -d`.
+3. Build the configuration by running: `docker-compose up -d`.
 
 ### Check That Everything Is Working
 
